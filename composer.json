@@ -1,0 +1,24 @@
+{
+    "name": "aleksey/testchat",
+    "description": "Skypelike Chat",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aleksey Buldakov",
+            "email": "aleksey.krazer@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "comodojo/cookies": "^2.0",
+        "doctrine/orm": "^2.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "core\\": "core/",
+            "Model\\": "models/",
+            "models\\ORM\\": "models/ORM"
+        }
+    }
+}
